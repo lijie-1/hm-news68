@@ -1,7 +1,5 @@
 <template>
-  <div class="app">
-    <router-view></router-view>
-  </div>
+  <div class="register">我是注册组件</div>
 </template>
 
 <script>
