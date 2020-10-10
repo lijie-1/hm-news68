@@ -1,5 +1,7 @@
 <template>
-  <div class="register">我是注册组件</div>
+  <div class="register">
+    <hm-header>注册</hm-header>
+  </div>
 </template>
 
 <script>
