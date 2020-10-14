@@ -63,7 +63,7 @@ export default {
           pageSize: this.pageSize,
         },
       })
-      console.log('加载数据', res.data)
+      // console.log('加载数据', res.data)
       const { statusCode, data } = res.data
       if (statusCode === 200) {
         // this.commentList = this.commentList.concat(data)
@@ -90,7 +90,7 @@ export default {
     },
     onRefresh() {
       setTimeout(() => {
-        console.log('下拉刷新中')
+        // console.log('下拉刷新中')
         // 下拉刷新需要清除原来的数据
         this.commentList = []
         // 防止之前已经没有数据了
